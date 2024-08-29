@@ -1,0 +1,89 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "dev:rm": "rm -rf .nuxt && nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "release": "release-it",
+    "dev:debug": "cross-env VITE_LOG_LEVEL=DEBUG && nuxt dev",
+    "dev:debug:rm": "cross-env VITE_LOG_LEVEL=DEBUG  && rm -rf .nuxt && nuxt dev"
+  },
+  "dependencies": {
+    "@casl/ability": "^6.7.1",
+    "@casl/vue": "^2.2.2",
+    "@ctechhindi/vue3-progress-bar": "^1.0.5",
+    "@nuxtjs/i18n": "^8.5.0",
+    "@pinia/nuxt": "^0.5.4",
+    "@sweetalert2/theme-dark": "^5.0.18",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "axios": "^1.7.4",
+    "bootstrap-icons": "^1.11.3",
+    "cross-env": "^7.0.3",
+    "lodash": "^4.17.21",
+    "loglevel": "^1.9.1",
+    "nuxt": "^3.13.0",
+    "perfect-scrollbar": "^1.5.5",
+    "pinia": "^2.2.2",
+    "sass": "^1.77.8",
+    "sweetalert2": "^11.12.4",
+    "vue": "^3.4.33",
+    "vue-loading-overlay": "^6.0.4",
+    "vue3-perfect-scrollbar": "^2.0.0"
+  },
+  "release-it": {
+    "$schema": "https://unpkg.com/release-it/schema/release-it.json",
+    "github": {
+      "release": true,
+      "releaseName": "v${version}",
+      "web": true
+    },
+    "git": {
+      "commitMessage": "chore(release): ${version}",
+      "tagAnnotation": "v${version}",
+      "tagName": "v${version}"
+    },
+    "npm": {
+      "publish": false
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "infile": "CHANGELOG.md",
+        "ignoreRecommendedBump": true,
+        "preset": {
+          "name": "conventionalcommits",
+          "types": [
+            {
+              "type": "feat",
+              "section": "Features"
+            },
+            {
+              "type": "fix",
+              "section": "Bug Fixes"
+            },
+            {
+              "type": "chore",
+              "section": "Internal"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "@bootstrap-vue-next/nuxt": "^0.24.10",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "@release-it/conventional-changelog": "^8.0.1",
+    "@vueuse/core": "^11.0.1",
+    "@vueuse/nuxt": "^11.0.1",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue-next": "^0.24.10",
+    "release-it": "^17.6.0",
+    "release-it-changelogen": "^0.1.0"
+  }
+}
