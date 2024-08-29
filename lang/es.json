@@ -1,0 +1,53 @@
+{
+  "auth": {
+    "register": "Registrarse",
+    "login": "Iniciar sesión",
+    "log-out": "Cerrar sesión",
+    "password_confirmation": "Confirmar contraseña",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "no-account": "¿No tienes una cuenta?",
+    "have-an-account": "¿Ya tienes una cuenta?",
+    "reset-password": "Restablecer contraseña",
+    "sent-email-reset-password": "Se ha enviado un correo para restablecer la contraseña"
+  },
+  "validation": {
+    "required": "El campo {attribute} es obligatorio.",
+    "email": "El {attribute} debe ser una dirección de correo electrónico válida.",
+    "same": "El {attribute} y {other} deben coincidir."
+  },
+  "menu": {
+    "application": "Aplicación",
+    "home": "Inicio",
+    "administration": "Administración",
+    "clients": "Clientes",
+    "categories": "Categorías",
+    "products": "Productos",
+    "users": "Usuarios"
+  },
+  "user": {
+    "created": "Usuario creado correctamente",
+    "updated": "Usuario actualizado correctamente",
+    "deleted": "Usuario eliminado correctamente"
+  },
+  "notification": {
+    "confirm-title": "¿Está seguro?",
+    "confirm-text": "¡No podrás revertir esta acción!",
+    "confirm-buttom-text": "¡Sí, borrar!",
+    "confirm-cancel-buttom-text": "Cancelar"
+  },
+  "global": {
+    "search": "Buscar",
+    "back": "Volver"
+  },
+  "page-error": {
+    "404": "No hemos podido encontrarla...",
+    "404-text": "La página que busca no existe.<br/>Tal vez, estas páginas le ayuden a encontrar lo que busca."
+  },
+  "user-profile": {
+    "edit": "Editar perfil",
+    "settigs": "Ajustes"
+  },
+  "notifications": "Notificaciones",
+  "notifications-text": "No se han encontrado notificaciones"
+}

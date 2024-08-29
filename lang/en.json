@@ -1,0 +1,53 @@
+{
+  "auth": {
+    "register": "Register",
+    "login": "Login",
+    "log-out": "Log out",
+    "email": "Email",
+    "password": "Password",
+    "password_confirmation": "Password confirmation",
+    "no-account": "Don't have an account?",
+    "have-an-account": "You already have an account?",
+    "reset-password": "Reset password",
+    "sent-email-reset-password": "An email has been sent to reset the password"
+  },
+  "validation": {
+    "same": "The {attribute} and {other} must match.",
+    "required": "The {attribute} field is required.",
+    "email": "The {attribute} must be a valid email address."
+  },
+  "menu": {
+    "application": "Application",
+    "home": "Home",
+    "administration": "Administration",
+    "clients": "Clients",
+    "categories": "Categories",
+    "products": "Products",
+    "users": "Users"
+  },
+  "user": {
+    "created": "User created successfully",
+    "deleted": "User deleted successfully",
+    "updated": "User updated successfully"
+  },
+  "notification": {
+    "confirm-title": "Are you sure?",
+    "confirm-text": "You won't be able to revert this!",
+    "confirm-buttom-text": "Yes, delete it!",
+    "confirm-cancel-buttom-text": "Cancel"
+  },
+  "global": {
+    "search": "Search",
+    "back": "Back"
+  },
+  "page-error": {
+    "404": "We couldn't find it...",
+    "404-text": "The page you're looking for doesn't exist.<br/>  Perhaps, there pages will help find what you're looking for."
+  },
+  "user-profile": {
+    "edit": "Edit profile",
+    "settigs": "Settings"
+  },
+  "notifications": "Notifications",
+  "notifications-text": "No notification found"
+}
