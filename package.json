@@ -85,5 +85,6 @@
     "bootstrap-vue-next": "^0.24.10",
     "release-it": "^17.6.0",
     "release-it-changelogen": "^0.1.0"
-  }
+  },
+  "version": "0.0.1"
 }
